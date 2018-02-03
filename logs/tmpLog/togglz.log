@@ -1,0 +1,8 @@
+21:47:25 [main] INFO  com.example.togglz.TogglzApplication - Starting TogglzApplication on Taylors-MacBook-Pro.local with PID 12069 (/Users/taylordumas/Desktop/Life/Development/Java/togglz/target/classes started by taylordumas in /Users/taylordumas/Desktop/Life/Development/Java/togglz) 
+21:47:25 [main] DEBUG com.example.togglz.TogglzApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE 
+21:47:25 [main] INFO  com.example.togglz.TogglzApplication - No active profile set, falling back to default profiles: default 
+21:47:27 [main] INFO  com.example.togglz.TogglzApplication - Started TogglzApplication in 17.786 seconds (JVM running for 22.04) 
+21:47:48 [http-nio-8080-exec-1] INFO  com.example.togglz.TogglzService - Info log entry 
+21:47:48 [http-nio-8080-exec-1] DEBUG com.example.togglz.TogglzService - Debug log entry 
+21:47:48 [http-nio-8080-exec-1] WARN  com.example.togglz.TogglzService - Warn log entry 
+21:47:48 [http-nio-8080-exec-1] ERROR com.example.togglz.TogglzService - Error log entry 

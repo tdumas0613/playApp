@@ -1,7 +1,7 @@
 package com.example.togglz;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,7 +19,7 @@ public class TogglzService {
 	@Autowired
 	private Feature logConfig;
 
-	private static Logger LOG = LogManager.getLogger(TogglzService.class);
+	private static Logger LOG = LoggerFactory.getLogger(TogglzService.class);
 	
 	@RequestMapping(value = "/togglz", method = RequestMethod.GET)
 	public String togglz() {
@@ -30,7 +30,8 @@ public class TogglzService {
 	}
 
 	private String executeLogConfigFeature() {
-		LOG.debug("Debug Log entry");
+		LOG.info("Info log entry");
+		LOG.debug("Debug log entry");
 		LOG.warn("Warn log entry");
 		LOG.error("Error log entry");
 		return "Log Config Active";
