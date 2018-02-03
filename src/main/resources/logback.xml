@@ -11,8 +11,8 @@
 		<File>logs/tmpLog/togglz.log</File>
 
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-			<FileNamePattern>logs/templogs/togglz-%d{yyyy-MM-dd---HH-mm}.log</FileNamePattern>
-			<maxHistory>10</maxHistory>
+			<FileNamePattern>logs/tempLog/togglz-%d{yyyy-MM-dd---HH-mm}.log</FileNamePattern>
+			<maxHistory>30</maxHistory>
 		</rollingPolicy>
 
 		<encoder>
@@ -20,7 +20,12 @@
 		</encoder>
 	</appender>
 
-	<logger name="com.example.togglz" level="DEBUG" additivity="false">
+	<logger name="com.example.togglz" additivity="false">
+		<appender-ref ref="consoleAppender" />
+		<appender-ref ref="rollingFileAppender" />
+	</logger>
+	
+	<logger name="org.springframework.web" additivity="false">
 		<appender-ref ref="consoleAppender" />
 		<appender-ref ref="rollingFileAppender" />
 	</logger>
