@@ -59,3 +59,7 @@
 [ERROR] 2018-02-02 19:08:27.873 [http-nio-8080-exec-1] TogglzService - Error log entry
 [WARN ] 2018-02-02 19:09:15.918 [http-nio-8080-exec-1] TogglzService - Warn log entry
 [ERROR] 2018-02-02 19:09:15.919 [http-nio-8080-exec-1] TogglzService - Error log entry
+[WARN ] 2018-02-02 19:14:03.256 [http-nio-8080-exec-1] TogglzService - Warn log entry
+[ERROR] 2018-02-02 19:14:03.257 [http-nio-8080-exec-1] TogglzService - Error log entry
+[WARN ] 2018-02-02 19:16:42.808 [http-nio-8080-exec-1] TogglzService - Warn log entry
+[ERROR] 2018-02-02 19:16:42.810 [http-nio-8080-exec-1] TogglzService - Error log entry

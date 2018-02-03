@@ -17,18 +17,22 @@ public class TogglzService {
 	private FeatureManager featureManager;
 	
 	@Autowired
-	private Feature togglz;
+	private Feature logConfig;
 
 	private static Logger LOG = LogManager.getLogger(TogglzService.class);
 	
 	@RequestMapping(value = "/togglz", method = RequestMethod.GET)
 	public String togglz() {
+		if(featureManager.isActive(logConfig)) {
+			return executeLogConfigFeature();
+		}
+		return "Log Config is not active";
+	}
+
+	private String executeLogConfigFeature() {
 		LOG.debug("Debug Log entry");
 		LOG.warn("Warn log entry");
 		LOG.error("Error log entry");
-		if(featureManager.isActive(togglz)) {
-			return "Togglz is active";
-		}
-		return "Togglz is not active";
+		return "Log Config Active";
 	}
 }

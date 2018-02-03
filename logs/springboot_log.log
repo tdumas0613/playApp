@@ -164,3 +164,23 @@
 [INFO ] 2018-02-02 19:09:05.824 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
 [INFO ] 2018-02-02 19:09:15.859 [http-nio-8080-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 [INFO ] 2018-02-02 19:09:15.879 [http-nio-8080-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+[INFO ] 2018-02-02 19:13:31.657 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 1618 ms
+[INFO ] 2018-02-02 19:13:32.526 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79fed1ff: startup date [Fri Feb 02 19:13:30 CST 2018]; root of context hierarchy
+[INFO ] 2018-02-02 19:13:32.660 [main] RequestMappingHandlerMapping - Mapped "{[/togglz],methods=[GET]}" onto public java.lang.String com.example.togglz.TogglzService.togglz()
+[INFO ] 2018-02-02 19:13:32.665 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2018-02-02 19:13:32.666 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2018-02-02 19:13:32.722 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2018-02-02 19:13:32.723 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2018-02-02 19:13:32.785 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2018-02-02 19:14:03.198 [http-nio-8080-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2018-02-02 19:14:03.216 [http-nio-8080-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+[INFO ] 2018-02-02 19:16:26.604 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 1566 ms
+[INFO ] 2018-02-02 19:16:27.307 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cb5161f: startup date [Fri Feb 02 19:16:25 CST 2018]; root of context hierarchy
+[INFO ] 2018-02-02 19:16:27.408 [main] RequestMappingHandlerMapping - Mapped "{[/togglz],methods=[GET]}" onto public java.lang.String com.example.togglz.TogglzService.togglz()
+[INFO ] 2018-02-02 19:16:27.412 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2018-02-02 19:16:27.413 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2018-02-02 19:16:27.456 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2018-02-02 19:16:27.456 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2018-02-02 19:16:27.506 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2018-02-02 19:16:42.748 [http-nio-8080-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2018-02-02 19:16:42.768 [http-nio-8080-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms

@@ -11,7 +11,7 @@ public class TogglzApplication {
 	
 	@Bean
 	public Feature togglz() {
-		return new NamedFeature("EXAMPLE_FEATURE");
+		return new NamedFeature("LOG_CONFIG");
 	}
 
 	public static void main(String[] args) {
