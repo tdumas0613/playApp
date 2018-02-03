@@ -26,7 +26,6 @@ public class TogglzService {
 		LOG.debug("Debug Log entry");
 		LOG.warn("Warn log entry");
 		LOG.error("Error log entry");
-		LOG.error(System.getProperty("org.apache.logging.log4j.level"));
 		if(featureManager.isActive(togglz)) {
 			return "Togglz is active";
 		}

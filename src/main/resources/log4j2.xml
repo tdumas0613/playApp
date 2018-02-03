@@ -28,7 +28,7 @@
 		</File>
 	</Appenders>
 	<Loggers>
-		<Logger name="org.springframework.web" level="info" additivity="false">
+		<Logger name="org.springframework.web" additivity="false">
 			<AppenderRef ref="SpringBoot-Appender" />
 			<AppenderRef ref="Console-Appender" />
 		</Logger>

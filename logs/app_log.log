@@ -44,3 +44,18 @@
 [ERROR] 2018-02-02 18:57:51.395 [http-nio-8080-exec-4] TogglzPresenter - null
 [ERROR] 2018-02-02 18:58:31.418 [http-nio-8080-exec-1] TogglzService - Error log entry
 [ERROR] 2018-02-02 18:58:31.420 [http-nio-8080-exec-1] TogglzService - null
+[INFO ] 2018-02-02 19:05:46.146 [main] TogglzApplication - Starting TogglzApplication on Taylors-MacBook-Pro.local with PID 11833 (/Users/taylordumas/Desktop/Life/Development/Java/togglz/target/classes started by taylordumas in /Users/taylordumas/Desktop/Life/Development/Java/togglz)
+[DEBUG] 2018-02-02 19:05:46.150 [main] TogglzApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[INFO ] 2018-02-02 19:05:46.150 [main] TogglzApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-02-02 19:05:48.742 [main] TogglzApplication - Started TogglzApplication in 17.875 seconds (JVM running for 26.264)
+[DEBUG] 2018-02-02 19:05:53.148 [http-nio-8080-exec-1] TogglzService - Debug Log entry
+[WARN ] 2018-02-02 19:05:53.149 [http-nio-8080-exec-1] TogglzService - Warn log entry
+[ERROR] 2018-02-02 19:05:53.149 [http-nio-8080-exec-1] TogglzService - Error log entry
+[WARN ] 2018-02-02 19:07:00.148 [http-nio-8080-exec-1] TogglzService - Warn log entry
+[ERROR] 2018-02-02 19:07:00.150 [http-nio-8080-exec-1] TogglzService - Error log entry
+[WARN ] 2018-02-02 19:07:49.933 [http-nio-8080-exec-1] TogglzService - Warn log entry
+[ERROR] 2018-02-02 19:07:49.934 [http-nio-8080-exec-1] TogglzService - Error log entry
+[WARN ] 2018-02-02 19:08:27.871 [http-nio-8080-exec-1] TogglzService - Warn log entry
+[ERROR] 2018-02-02 19:08:27.873 [http-nio-8080-exec-1] TogglzService - Error log entry
+[WARN ] 2018-02-02 19:09:15.918 [http-nio-8080-exec-1] TogglzService - Warn log entry
+[ERROR] 2018-02-02 19:09:15.919 [http-nio-8080-exec-1] TogglzService - Error log entry
