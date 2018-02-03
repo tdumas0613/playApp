@@ -1,179 +1,19 @@
-21:55:00 [main] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with search precedence immediately lower than 'applicationConfigurationProperties' 
-21:55:00 [main] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Removing PropertySource 'applicationConfigurationProperties' 
-21:55:00 [main] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Removing PropertySource 'defaultProperties' 
-21:55:01 [localhost-startStop-1] DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT] 
-21:55:01 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2097 ms 
-21:55:01 [main] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Replacing PropertySource 'servletContextInitParams' with 'servletContextInitParams' 
-21:55:02 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@24d34fbd: startup date [Fri Feb 02 21:54:59 CST 2018]; root of context hierarchy 
-21:55:02 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking for request mappings in application context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@24d34fbd: startup date [Fri Feb 02 21:54:59 CST 2018]; root of context hierarchy 
-21:55:02 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 1 request handler methods found on class com.example.togglz.TogglzService: {public java.lang.String com.example.togglz.TogglzService.togglz()={[/togglz],methods=[GET]}} 
-21:55:02 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/togglz],methods=[GET]}" onto public java.lang.String com.example.togglz.TogglzService.togglz() 
-21:55:02 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 2 request handler methods found on class org.springframework.boot.autoconfigure.web.BasicErrorController: {public org.springframework.http.ResponseEntity org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)={[/error]}, public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)={[/error],produces=[text/html]}} 
-21:55:02 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
-21:55:02 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Looking for URL mappings in application context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@24d34fbd: startup date [Fri Feb 02 21:54:59 CST 2018]; root of context hierarchy 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.event.internalEventListenerProcessor': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.event.internalEventListenerFactory': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'togglzApplication': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'togglzService': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'togglz': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.AutoConfigurationPackages': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'propertySourcesPlaceholderConfigurer': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'standardJacksonObjectMapperBuilderCustomizer': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.store': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'jacksonObjectMapperBuilder': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'jacksonObjectMapper': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'jsonComponentModule': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration$TomcatWebSocketConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'websocketContainerCustomizer': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration$EmbeddedTomcat': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'tomcatEmbeddedServletContainerFactory': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'embeddedServletContainerCustomizerBeanPostProcessor': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'errorPageRegistrarBeanPostProcessor': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'dispatcherServlet': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'spring.mvc-org.springframework.boot.autoconfigure.web.WebMvcProperties': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'dispatcherServletRegistration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'defaultValidator': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'methodValidationPostProcessor': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'error': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'beanNameViewResolver': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'conventionErrorViewResolver': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'errorAttributes': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'basicErrorController': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'errorPageCustomizer': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'preserveErrorControllerTargetClassPostProcessor': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'requestMappingHandlerAdapter': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'requestMappingHandlerMapping': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'mvcValidator': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'mvcContentNegotiationManager': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'mvcPathMatcher': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'mvcUrlPathHelper': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'viewControllerHandlerMapping': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'beanNameHandlerMapping': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'resourceHandlerMapping': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'mvcResourceUrlProvider': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'defaultServletHandlerMapping': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'mvcConversionService': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'mvcUriComponentsContributor': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'httpRequestHandlerAdapter': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'simpleControllerHandlerAdapter': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'handlerExceptionResolver': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'mvcViewResolver': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'mvcHandlerMappingIntrospector': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'faviconHandlerMapping': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'faviconRequestHandler': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'defaultViewResolver': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'viewResolver': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'welcomePageHandlerMapping': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'requestContextFilter': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'hiddenHttpMethodFilter': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'httpPutFormContentFilter': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'mbeanExporter': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'objectNamingStrategy': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'mbeanServer': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'stringHttpMessageConverter': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'spring.http.encoding-org.springframework.boot.autoconfigure.web.HttpEncodingProperties': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'mappingJackson2HttpMessageConverter': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'messageConverters': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'characterEncodingFilter': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'localeCharsetMappingsCustomizer': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.MultipartAutoConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'multipartConfigElement': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'multipartResolver': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'spring.http.multipart-org.springframework.boot.autoconfigure.web.MultipartProperties': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'serverProperties': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'duplicateServerPropertiesDetector': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration$RestTemplateConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'restTemplateBuilder': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.togglz.spring.boot.autoconfigure.TogglzAutoConfiguration$UserProviderConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'userProvider': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.togglz.spring.boot.autoconfigure.TogglzAutoConfiguration$StateRepositoryConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'stateRepository': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.togglz.spring.boot.autoconfigure.TogglzAutoConfiguration$ActivationStrategyProviderConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'activationStrategyProvider': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.togglz.spring.boot.autoconfigure.TogglzAutoConfiguration$FeatureManagerConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'featureManager': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.togglz.spring.boot.autoconfigure.TogglzAutoConfiguration$FeatureProviderConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'featureProvider': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.togglz.spring.boot.autoconfigure.TogglzAutoConfiguration': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'togglzApplicationContextBinderApplicationListener': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'togglz-org.togglz.spring.boot.autoconfigure.TogglzProperties': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'autoConfigurationReport': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'springApplicationArguments': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'springBootBanner': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'springBootLoggingSystem': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'environment': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'systemProperties': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'systemEnvironment': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'messageSource': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'applicationEventMulticaster': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'servletContext': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'contextParameters': no URL paths identified 
-21:55:02 [main] DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'contextAttributes': no URL paths identified 
-21:55:02 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
-21:55:02 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
-21:55:02 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Looking for exception mappings: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@24d34fbd: startup date [Fri Feb 02 21:54:59 CST 2018]; root of context hierarchy 
-21:55:02 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
-21:55:03 [main] DEBUG org.springframework.web.servlet.resource.ResourceUrlProvider - Looking for resource handler mappings 
-21:55:03 [main] DEBUG org.springframework.web.servlet.resource.ResourceUrlProvider - Found resource handler mapping: URL pattern="/**/favicon.ico", locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], class path resource []], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@44118750] 
-21:55:03 [main] DEBUG org.springframework.web.servlet.resource.ResourceUrlProvider - Found resource handler mapping: URL pattern="/webjars/**", locations=[class path resource [META-INF/resources/webjars/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@67dc464] 
-21:55:03 [main] DEBUG org.springframework.web.servlet.resource.ResourceUrlProvider - Found resource handler mapping: URL pattern="/**", locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@57704812] 
-21:55:03 [main] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'server.ports' with highest search precedence 
-21:55:42 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Initializing servlet 'dispatcherServlet' 
-21:55:42 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
-21:55:42 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Using MultipartResolver [org.springframework.web.multipart.support.StandardServletMultipartResolver@10fbee39] 
-21:55:42 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@544f720a] 
-21:55:42 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@2525bf25] 
-21:55:43 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1174b1f1] 
-21:55:43 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@6a2c45cb] 
-21:55:43 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Published WebApplicationContext of servlet 'dispatcherServlet' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcherServlet] 
-21:55:43 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms 
-21:55:43 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Servlet 'dispatcherServlet' configured successfully 
-21:55:43 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/togglz] 
-21:55:43 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /togglz 
-21:55:43 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public java.lang.String com.example.togglz.TogglzService.togglz()] 
-21:55:43 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/togglz] is: -1 
-21:55:43 [http-nio-8080-exec-1] WARN  com.example.togglz.TogglzService - Warn log entry 
-21:55:43 [http-nio-8080-exec-1] ERROR com.example.togglz.TogglzService - Error log entry 
-21:55:43 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Written [Log Config Active] as "text/html" using [org.springframework.http.converter.StringHttpMessageConverter@5e0972ec] 
-21:55:43 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling 
-21:55:43 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Successfully completed request 
+14:30:11 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Initializing servlet 'dispatcherServlet' 
+14:30:11 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
+14:30:11 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Using MultipartResolver [org.springframework.web.multipart.support.StandardServletMultipartResolver@3eec18d] 
+14:30:11 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@5989c4a4] 
+14:30:11 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@497fdd4f] 
+14:30:11 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4cdfd4fb] 
+14:30:11 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@6017d97c] 
+14:30:11 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Published WebApplicationContext of servlet 'dispatcherServlet' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcherServlet] 
+14:30:11 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 37 ms 
+14:30:11 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Servlet 'dispatcherServlet' configured successfully 
+14:30:12 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/togglz] 
+14:30:12 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /togglz 
+14:30:12 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public java.lang.String com.example.togglz.TogglzService.togglz()] 
+14:30:12 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/togglz] is: -1 
+14:30:12 [http-nio-8080-exec-1] WARN  com.example.togglz.TogglzService - Warn log entry 
+14:30:12 [http-nio-8080-exec-1] ERROR com.example.togglz.TogglzService - Error log entry 
+14:30:12 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Written [Log Config Active] as "text/html" using [org.springframework.http.converter.StringHttpMessageConverter@4cfd7ffa] 
+14:30:12 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling 
+14:30:12 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Successfully completed request 

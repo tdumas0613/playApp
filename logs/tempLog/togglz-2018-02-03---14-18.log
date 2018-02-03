@@ -1,0 +1,7 @@
+14:18:01 [main] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with search precedence immediately lower than 'applicationConfigurationProperties' 
+14:18:01 [main] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Removing PropertySource 'applicationConfigurationProperties' 
+14:18:01 [main] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Removing PropertySource 'defaultProperties' 
+14:18:01 [main] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'defaultProperties' with lowest search precedence 
+14:18:01 [localhost-startStop-1] DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT] 
+14:18:01 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1173 ms 
+14:18:02 [main] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Replacing PropertySource 'servletContextInitParams' with 'servletContextInitParams' 
