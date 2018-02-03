@@ -19,13 +19,10 @@ public class TogglzService {
 	@Autowired
 	private Feature logConfig;
 	
-	@Value("${togglz.features.LOG_CONFIG.enabled}")
-	private String loggerConfigString;
 	private static Logger LOG = LoggerFactory.getLogger(TogglzService.class);
 	
 	@RequestMapping(value = "/togglz", method = RequestMethod.GET)
 	public String togglz() {
-		LOG.debug("Logger Config String Value: "+loggerConfigString);
 		if(featureManager.isActive(logConfig)) {
 			return executeLogConfigFeature();
 		}
